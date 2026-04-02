@@ -1,357 +1,1538 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gallery — Photos of Genesis Primary School Lira. Classrooms, students, activities, and campus life.">
-  <title>Gallery | Genesis Primary School Lira</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<!-- NAVBAR -->
-<nav class="navbar" id="navbar">
-  <div class="container">
-    <div class="nav-wrapper">
-      <a href="index.html" class="logo">
-        <div class="logo-mark">
-          <div class="logo-emblem"><span>G</span></div>
-          <span class="logo-text">Genesis Primary School</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Gallery — Photos of Genesis Primary School Lira. Classrooms, students, activities, and campus life."
+    />
+    <title>Gallery | Genesis Primary School Lira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="logo">
+            <div class="logo-mark">
+              <div class="logo-emblem"><span>G</span></div>
+              <span class="logo-text">Genesis Primary School</span>
+            </div>
+            <span class="logo-location">Lira, Uganda</span>
+          </a>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-label="Open navigation"
+          >
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="admissions.html" class="nav-cta">Enroll Now</a></li>
+          </ul>
         </div>
-        <span class="logo-location">Lira, Uganda</span>
-      </a>
-      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-label="Open navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-menu" id="navMenu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="academics.html">Academics</a></li>
-        <li><a href="admissions.html">Admissions</a></li>
-        <li><a href="gallery.html" class="active">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="admissions.html" class="nav-cta">Enroll Now</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      </div>
+    </nav>
 
-<!-- ═══════════════════════════════════
+    <!-- ═══════════════════════════════════
      HERO — GALLERY (Dark Brown → Terracotta → Gold)
 ═══════════════════════════════════ -->
-<section class="hero hero--gallery">
-  <div class="hero-shapes">
-    <div class="shape shape-1"></div>
-    <div class="shape shape-2"></div>
-    <div class="shape shape-3"></div>
-    <div class="shape shape-4"></div>
-    <div class="shape shape-5"></div>
-  </div>
-  <div class="hero-grid"></div>
-
-  <div class="hero-body">
-    <div class="container">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        School Life in Pictures
+    <section class="hero hero--gallery">
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
       </div>
-      <h1 class="hero-title">
-        A Glimpse Into<br>
-        <span class="accent-line">Life at Genesis</span>
-      </h1>
-      <p class="hero-subtitle">
-        Photos say more than any brochure. Browse our gallery to see our classrooms,
-        activities, and the community that makes Genesis what it is.
-      </p>
-      <div class="hero-actions">
-        <a href="admissions.html" class="btn btn-primary btn-lg">Enroll Your Child</a>
-        <a href="contact.html" class="btn btn-outline-white btn-lg">Schedule a Real Visit</a>
+      <div class="hero-grid"></div>
+
+      <div class="hero-body">
+        <div class="container">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            School Life in Pictures
+          </div>
+          <h1 class="hero-title">
+            A Glimpse Into<br />
+            <span class="accent-line">Life at Genesis</span>
+          </h1>
+          <p class="hero-subtitle">
+            Photos say more than any brochure. Browse our gallery to see our
+            classrooms, activities, and the community that makes Genesis what it
+            is.
+          </p>
+          <div class="hero-actions">
+            <a href="admissions.html" class="btn btn-primary btn-lg"
+              >Enroll Your Child</a
+            >
+            <a href="contact.html" class="btn btn-outline-white btn-lg"
+              >Schedule a Real Visit</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-wave">
+        <svg
+          viewBox="0 0 1440 80"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z"
+            fill="#ffffff"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="section-label">Our Campus</span>
+          <h2 class="section-title">School Gallery</h2>
+          <div class="divider"></div>
+          <p class="section-desc section-desc--center mt-md">
+            Click any image to view it full size. Use the filters to browse by
+            category.
+          </p>
+        </div>
+
+        <!-- Filters -->
+        <div class="gallery-filter reveal">
+          <button class="filter-btn active" data-cat="all">All Photos</button>
+          <button class="filter-btn" data-cat="classrooms">Classrooms</button>
+          <button class="filter-btn" data-cat="activities">Activities</button>
+          <button class="filter-btn" data-cat="sports">Sports</button>
+          <button class="filter-btn" data-cat="campus">Campus</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid reveal">
+          <!-- Classrooms -->
+          <div
+            class="gallery-item tall"
+            data-cat="classrooms"
+            data-caption="Students engaged in an interactive mathematics lesson in one of our bright classrooms"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/6.jpeg"
+                alt="Students in mathematics class at Genesis Primary School"
+              />
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="A teacher guiding a small group discussion — one of our core interactive teaching methods"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/5.jpeg"
+                alt="Teacher facilitating group discussion in classroom"
+              />
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Campus -->
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="Genesis Primary School's main building — our home in Lira, Northern Uganda"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/pic3.jpeg"
+                alt="Exterior of Genesis Primary School buildings"
+              />
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Sports -->
+          <div
+            class="gallery-item wide"
+            data-cat="sports"
+            data-caption="Annual Sports Day — students competing in athletics events with school spirit and enthusiasm"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/4.jpeg"
+                alt="Students participating in Sports Day athletics competition"
+              />
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Activities -->
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Morning assembly — students gathered for daily prayers, announcements, and school culture"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/pic1.jpeg"
+                alt="Students lined up during morning assembly at Genesis Primary School"
+              />
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Students using computers in our ICT laboratory — building essential digital literacy skills"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/pic2.jpeg"
+                alt="Students working on computers in the ICT lab"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">ICT / Computer Studies lab</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Cultural dance performance — students celebrating Uganda's rich traditions at our cultural day"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/pic3.jpeg"
+                alt="Students performing traditional Ugandan cultural dance"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Cultural Day performance</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Football training — developing teamwork, fitness, and fair play on our sports field"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/1.jpeg"
+                alt="Students playing football during physical education"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Football training session</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item tall"
+            data-cat="campus"
+            data-caption="Our school library — where a love of reading is encouraged from the earliest years"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/2.jpeg"
+                alt="School library with students reading books"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School library</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="School choir rehearsal — music education that builds confidence and cultural appreciation"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/5.jpeg" alt="School choir rehearsing together" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School choir rehearsal</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Science lesson in progress — hands-on learning with practical demonstrations"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/6.jpeg"
+                alt="Students in a science lesson with teacher demonstration"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Science lesson — Primary 6</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="Clean, safe play area where students spend break time in a supervised, secure environment"
+          >
+            <div class="gallery-img-wrap">
+              <img
+                src="images/pic3.jpeg"
+                alt="School play area and outdoor space at Genesis Primary School"
+              />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Outdoor play area</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Gallery Images from gallery folder -->
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="Beautiful school campus view at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/1.jpeg" alt="School campus view" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Campus View 1</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School buildings and facilities at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/2.jpeg" alt="School buildings" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Buildings</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Students participating in school activities and events"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/3.jpeg" alt="School activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="Beautiful campus scenery at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/4.jpeg" alt="Campus scenery" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Campus Scenery</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Students engaged in creative activities at school"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/5.jpeg" alt="Creative activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Creative Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Classroom learning environment at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/6.jpeg" alt="Classroom learning" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Classroom Learning</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Students participating in sports activities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/7.jpeg" alt="Sports activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Sports Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="School event and celebration moments"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/8.jpeg" alt="School events" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Events</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School compound and outdoor facilities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/9.jpeg" alt="School compound" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Compound</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Students enjoying learning activities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/10.jpeg" alt="Learning activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Learning Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Teacher and students in classroom session"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/11.jpeg" alt="Classroom session" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Classroom Session</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School infrastructure and buildings"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/12.jpeg" alt="School infrastructure" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Infrastructure</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Students participating in group activities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/13.jpeg" alt="Group activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Group Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Students playing sports and games"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/14.jpeg" alt="Sports and games" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Sports and Games</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Students in classroom learning environment"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/15.jpeg" alt="Students in classroom" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Students in Classroom</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School campus overview and surroundings"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/16.jpeg" alt="Campus overview" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Campus Overview</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="School activities and student engagement"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/17.jpeg" alt="Student engagement" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Student Engagement</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Classroom teaching and learning session"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/18.jpeg" alt="Teaching session" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Teaching Session</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Sports day and athletic activities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/19.jpeg" alt="Athletic activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Athletic Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School outdoor areas and facilities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/20.jpeg" alt="Outdoor facilities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Outdoor Facilities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Cultural and educational activities at school"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/21.jpeg" alt="Cultural activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Cultural Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Students focused on their studies in classroom"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/22.jpeg" alt="Students studying" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Students Studying</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Physical education and sports training"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/23.jpeg" alt="Physical education" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Physical Education</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School environment and surroundings"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/24.jpeg" alt="School environment" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Environment</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Students participating in school programs"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/25.jpeg" alt="School programs" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Programs</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Interactive learning in the classroom"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/26.jpeg" alt="Interactive learning" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Interactive Learning</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Students engaging in sports activities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/27.jpeg" alt="Students in sports" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Students in Sports</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="School grounds and outdoor spaces"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/28.jpeg" alt="School grounds" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Grounds</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Exciting school activities and events"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/29.jpeg" alt="Exciting activities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Exciting Activities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Education and learning at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/30.jpeg" alt="Education and learning" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Education and Learning</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="sports"
+            data-caption="Competitive sports and friendly matches"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/31.jpeg" alt="Competitive sports" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Competitive Sports</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="campus"
+            data-caption="Beautiful school environment and facilities"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/32.jpeg" alt="School facilities" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">School Facilities</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <div
+            class="gallery-item"
+            data-cat="activities"
+            data-caption="Memorable moments at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/33.jpeg" alt="Memorable moments" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Memorable Moments</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- <div
+            class="gallery-item"
+            data-cat="classrooms"
+            data-caption="Students in engaged learning at Genesis Primary School"
+          >
+            <div class="gallery-img-wrap">
+              <img src="images/gallery/34.jpeg" alt="Engaged learning" />
+            </div>
+            <div class="gallery-overlay">
+              <p class="gallery-caption">Engaged Learning</p>
+            </div>
+            <div class="gallery-zoom">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+              >
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
+              </svg>
+            </div> -->
+          </div>
+        </div>
+        <!-- /gallery-grid -->
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
+      <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+      <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">
+        &#8249;
+      </button>
+      <button class="lb-nav lb-next" id="lbNext" aria-label="Next">
+        &#8250;
+      </button>
+      <div class="lightbox-inner">
+        <div class="lightbox-img-wrap">
+          <img id="lbImg" src="" alt="" style="transition: opacity 0.2s" />
+        </div>
+        <p class="lightbox-caption-bar" id="lbCaption"></p>
       </div>
     </div>
-  </div>
 
-  <div class="hero-wave">
-    <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
-    </svg>
-  </div>
-</section>
-
-
-<!-- GALLERY -->
-<section class="section">
-  <div class="container">
-    <div class="section-head section-head--center reveal">
-      <span class="section-label">Our Campus</span>
-      <h2 class="section-title">School Gallery</h2>
-      <div class="divider"></div>
-      <p class="section-desc section-desc--center mt-md">
-        Click any image to view it full size. Use the filters to browse by category.
-      </p>
-    </div>
-
-    <!-- Filters -->
-    <div class="gallery-filter reveal">
-      <button class="filter-btn active" data-cat="all">All Photos</button>
-      <button class="filter-btn" data-cat="classrooms">Classrooms</button>
-      <button class="filter-btn" data-cat="activities">Activities</button>
-      <button class="filter-btn" data-cat="sports">Sports</button>
-      <button class="filter-btn" data-cat="campus">Campus</button>
-    </div>
-
-    <!-- Gallery Grid -->
-    <div class="gallery-grid reveal">
-
-      <!-- Classrooms -->
-      <div class="gallery-item tall" data-cat="classrooms"
-           data-caption="Students engaged in an interactive mathematics lesson in one of our bright classrooms">
-        <div class="gallery-img-wrap">
-          <img src="images/6.jpeg" alt="Students in mathematics class at Genesis Primary School">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Mathematics lesson — Primary 4</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+    <!-- CTA -->
+    <section class="cta-section" style="background: var(--hero-gallery)">
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-3"></div>
+      </div>
+      <div class="container">
+        <div class="cta-inner reveal">
+          <span class="section-label section-label--light">Visit Us</span>
+          <h2 class="cta-title">See It for Yourself</h2>
+          <p class="cta-desc">
+            Pictures give you a start, but a real visit tells you everything.
+            Come walk through our school, meet our teachers, and see where your
+            child would learn every day.
+          </p>
+          <div class="cta-buttons">
+            <a href="contact.html" class="btn btn-primary btn-lg"
+              >Book a School Tour</a
+            >
+            <a href="admissions.html" class="btn btn-outline-white btn-lg"
+              >Admissions Information</a
+            >
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="gallery-item" data-cat="classrooms"
-           data-caption="A teacher guiding a small group discussion — one of our core interactive teaching methods">
-        <div class="gallery-img-wrap">
-          <img src="images/5.jpeg" alt="Teacher facilitating group discussion in classroom">
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="footer-logo-text">Genesis Primary School</span>
+            <p>
+              Building strong foundations for lifelong success through quality
+              education and moral development in Lira, Northern Uganda.
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-heading">Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Contact</h4>
+            <ul class="footer-contact-list">
+              <li>Lira, Northern Uganda</li>
+              <li>+256 XXX XXX XXX</li>
+              <li>info@genesislira.ac.ug</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-heading">Hours</h4>
+            <ul class="footer-contact-list">
+              <li>Monday – Friday</li>
+              <li>School: 8:00 AM – 4:00 PM</li>
+              <li>Office: 7:30 AM – 5:00 PM</li>
+            </ul>
+          </div>
         </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Group learning session</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Genesis Primary School Lira. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="admissions.html">Admissions</a>
+            <a href="contact.html">Contact</a>
+          </div>
         </div>
       </div>
+    </footer>
 
-      <!-- Campus -->
-      <div class="gallery-item" data-cat="campus"
-           data-caption="Genesis Primary School's main building — our home in Lira, Northern Uganda">
-        <div class="gallery-img-wrap">
-          <img src="images/pic3.jpeg" alt="Exterior of Genesis Primary School buildings">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">School compound and buildings</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <!-- Sports -->
-      <div class="gallery-item wide" data-cat="sports"
-           data-caption="Annual Sports Day — students competing in athletics events with school spirit and enthusiasm">
-        <div class="gallery-img-wrap">
-          <img src="images/4.jpeg" alt="Students participating in Sports Day athletics competition">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Annual Sports Day</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <!-- Activities -->
-      <div class="gallery-item" data-cat="activities"
-           data-caption="Morning assembly — students gathered for daily prayers, announcements, and school culture">
-        <div class="gallery-img-wrap">
-          <img src="images/pic1.jpeg" alt="Students lined up during morning assembly at Genesis Primary School">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Morning assembly</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="classrooms"
-           data-caption="Students using computers in our ICT laboratory — building essential digital literacy skills">
-        <div class="gallery-img-wrap">
-          <img src="images/pic2.jpeg" alt="Students working on computers in the ICT lab">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">ICT / Computer Studies lab</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="activities"
-           data-caption="Cultural dance performance — students celebrating Uganda's rich traditions at our cultural day">
-        <div class="gallery-img-wrap">
-          <img src="images/pic3.jpeg" alt="Students performing traditional Ugandan cultural dance">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Cultural Day performance</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="sports"
-           data-caption="Football training — developing teamwork, fitness, and fair play on our sports field">
-        <div class="gallery-img-wrap">
-          <img src="images/1.jpeg" alt="Students playing football during physical education">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Football training session</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item tall" data-cat="campus"
-           data-caption="Our school library — where a love of reading is encouraged from the earliest years">
-        <div class="gallery-img-wrap">
-          <img src="images/2.jpeg" alt="School library with students reading books">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">School library</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="activities"
-           data-caption="School choir rehearsal — music education that builds confidence and cultural appreciation">
-        <div class="gallery-img-wrap">
-          <img src="images/5.jpeg" alt="School choir rehearsing together">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">School choir rehearsal</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="classrooms"
-           data-caption="Science lesson in progress — hands-on learning with practical demonstrations">
-        <div class="gallery-img-wrap">
-          <img src="images/6.jpeg" alt="Students in a science lesson with teacher demonstration">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Science lesson — Primary 6</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-      <div class="gallery-item" data-cat="campus"
-           data-caption="Clean, safe play area where students spend break time in a supervised, secure environment">
-        <div class="gallery-img-wrap">
-          <img src="images/pic3.jpeg" alt="School play area and outdoor space at Genesis Primary School">
-        </div>
-        <div class="gallery-overlay">
-          <p class="gallery-caption">Outdoor play area</p>
-        </div>
-        <div class="gallery-zoom">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-      </div>
-
-    </div><!-- /gallery-grid -->
-  </div>
-</section>
-
-
-<!-- LIGHTBOX -->
-<div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
-  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
-  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">&#8249;</button>
-  <button class="lb-nav lb-next" id="lbNext" aria-label="Next">&#8250;</button>
-  <div class="lightbox-inner">
-    <div class="lightbox-img-wrap">
-      <img id="lbImg" src="" alt="" style="transition: opacity .2s;">
-    </div>
-    <p class="lightbox-caption-bar" id="lbCaption"></p>
-  </div>
-</div>
-
-
-<!-- CTA -->
-<section class="cta-section" style="background: var(--hero-gallery);">
-  <div class="hero-shapes">
-    <div class="shape shape-1"></div>
-    <div class="shape shape-3"></div>
-  </div>
-  <div class="container">
-    <div class="cta-inner reveal">
-      <span class="section-label section-label--light">Visit Us</span>
-      <h2 class="cta-title">See It for Yourself</h2>
-      <p class="cta-desc">
-        Pictures give you a start, but a real visit tells you everything. Come walk through our
-        school, meet our teachers, and see where your child would learn every day.
-      </p>
-      <div class="cta-buttons">
-        <a href="contact.html" class="btn btn-primary btn-lg">Book a School Tour</a>
-        <a href="admissions.html" class="btn btn-outline-white btn-lg">Admissions Information</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <span class="footer-logo-text">Genesis Primary School</span>
-        <p>Building strong foundations for lifelong success through quality education and moral development in Lira, Northern Uganda.</p>
-      </div>
-      <div>
-        <h4 class="footer-heading">Navigate</h4>
-        <ul class="footer-links">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="admissions.html">Admissions</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="footer-heading">Contact</h4>
-        <ul class="footer-contact-list">
-          <li>Lira, Northern Uganda</li>
-          <li>+256 XXX XXX XXX</li>
-          <li>info@genesislira.ac.ug</li>
-        </ul>
-      </div>
-      <div>
-        <h4 class="footer-heading">Hours</h4>
-        <ul class="footer-contact-list">
-          <li>Monday – Friday</li>
-          <li>School: 8:00 AM – 4:00 PM</li>
-          <li>Office: 7:30 AM – 5:00 PM</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Genesis Primary School Lira. All rights reserved.</p>
-      <div class="footer-bottom-links">
-        <a href="admissions.html">Admissions</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
